@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(./img/backgruond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header{
     display: flex;
     gap: 5px;
@@ -131,4 +137,8 @@ main{
 
 .progress{
     max-width: 800px;
+}
+
+.progress-bar{
+    height: 100px;
 }
